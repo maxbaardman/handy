@@ -1,0 +1,346 @@
+html,body{
+	padding:0;
+	margin:0;
+}
+.container{
+	position: relative; 
+	width: 100%;
+	float: left;
+	font-family: 'Archivo', sans-serif;
+}
+.container_sub{
+	margin: auto;
+	max-width: 1000px;
+}
+.logo{
+	padding-left:25px;
+	padding-bottom:10px;
+}
+.navigation{
+	max-width: 950px;
+	margin:0 auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:12px;
+  font-weight:500;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: yellow;
+  color:black;
+}
+
+li.dropdown {
+  display: inline-block;
+  max-width:950px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: gray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size:16px;
+  font-weight:500;
+}
+
+.dropdown-content a:hover {background-color: yellow;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.header{
+	width: 100%;
+	position:absolute;
+	float:left;
+	background-image:url("1/img/header.jpg");
+	height:375px;
+	background-size: cover;
+	z-index: -1;
+	margin-top: 60px;
+}	
+.banner_sub{
+	display:grid;
+	grid-template-columns:300px 300px 300px;
+	max-width:1000px;
+	margin:0 auto;
+	column-gap:50px;
+}
+.banner{
+	width:100%;
+	margin:0 auto;
+	position:relative;
+	float:left;
+	margin-top:400px;
+	padding:30px 0px 50px 0px;
+}
+.banner1{
+	background-image:url("1/img/banner-1.jpg"); 
+	width:300px;
+	height:220px;
+}
+.banner2{
+	background-image:url("1/img/banner-2.jpg");
+	width:300px;
+	height:220px;
+}
+.banner3{
+	background-image: url("1/img/banner-3.jpg");
+	width:300px;
+	height:220px;
+}
+.banner-item1, .banner-item2, .banner-item3{
+	display: none;
+	width:100%;
+	height:100%;
+	background-color:#333;
+	opacity:.9;
+	text-align:center;
+	color:white;
+	font-size:22px;
+	text-transform:uppercase;
+	padding-top:99px;
+	box-sizing:border-box;
+}
+
+.banner1:hover .banner-item1{
+	display:block;
+}
+.banner2:hover .banner-item2{
+	display:block;
+}
+
+.banner3:hover .banner-item3{
+	display:block;
+}
+
+
+.meer-weten{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #ffe718;
+}
+.geel_sub{
+	margin: auto;
+	max-width: 1000px;
+	height: 120px;
+	padding: 40px 0;
+	box-sizing: border-box;
+}
+.geel_left{
+	float: left;
+}
+.geel_left h1, div.geel_left p{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.geel_left p{
+	margin-left: 15px;
+}
+.geel_right{
+	float: right;
+}
+.geel_right button{
+	border: none;
+	background-color: white;
+	color:black;
+	padding: 12px 35px;
+}
+.geel_right button:hover{
+	background-color:#333;
+	color:white;
+}
+       .blokken{
+    float: left;
+    width: 100%;
+    position: relative;
+    bottom: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.blok1, .blok2, .blok3{
+    width: 300px;
+    height: 100px;
+    background-color: #ffe718;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.blok1:hover, .blok2:hover, .blok3:hover{
+    color: white;
+    background-color: #333;
+}
+.footer{
+	padding-top:50px;
+    position: relative;
+    width: 100%;
+}
+
+
+.icon{
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.tekst{
+    float: left;
+    width: 600px;
+}
+
+.lorem{
+    color: grey;
+    max-width: 450px;
+    float: left;
+}
+.contact_container{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+    .contact_container_sub{
+        margin: auto;
+        max-width: 900px;
+    }
+        .contact{
+            float: right;
+            width: 220px;
+        }
+
+        .map-marker{
+            color: grey;
+            display: block;
+            height: 60px;
+        }
+
+        .map-marker svg{
+            float: left;
+            width: 30px;
+        }
+
+        .map-marker p{
+            float: right;
+        }
+
+        .mobile{
+            color: grey;
+            display: block;
+            height: 60px;
+        }
+
+        .mobile svg{
+            float: left;
+            width: 30px;
+        }
+
+        .mobile p{
+            float: right;
+        }
+
+        .envelop{
+            color: grey;
+            display: block;
+            height: 60px;
+        }
+
+        .envelop svg{
+            float: left;
+            width: 40px;
+            padding-top: 10px;
+        }
+
+        .envelop p{
+            float: right;
+        }
+
+        .naam{
+        	background-color:#333;
+        	position:relative;
+        	float:left;
+        	width:100%;
+
+        }
+        .naam p{
+        	color:white;
+        	float:right;
+        	margin-right:60px;
+        }
+
+#tekst{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 324px;
+    padding: 50px 0;
+}
+    .tekst_sub{
+        margin: auto;
+        max-width: 1000px;
+    }
+        .teksten_hover{
+            color: #ffe718;
+            width: 90px;
+            padding: 0;
+            margin: 0;
+            display: contents;
+        }
+        .tekst_sub h1{
+            margin-top: 30px;
+        }
+        .tekst_sub .route{
+            color: #aeb6be;
+        }
+        .tekst_sub p{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+        }
+        #dropdown_container{
+            width: 80px;
+        }
+        .teksten_hover_container{
+            display: none;
+            position: absolute;
+            width: 220px;
+            color: #fff;
+            background-color: #AEB6BE;
+            font-size: 13px;
+            padding: 10px;
+        }
+        .teksten_hover:hover .teksten_hover_container {
+            display: block;
+            
+        }
+ 
