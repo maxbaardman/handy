@@ -188,10 +188,18 @@ li.dropdown {
     justify-content: center;
 }
 
+.blok2 a{
+    text-decoration: none;
+    background-color: #ffe718;
+    color: black;
+}
+
 .blok1, .blok2, .blok3{
     width: 300px;
     height: 100px;
+    text-decoration: none;
     background-color: #ffe718;
+    color: black;
     display: inline-block;
     text-align: center;
     margin-left: 25px;
@@ -201,6 +209,7 @@ li.dropdown {
     color: white;
     background-color: #333;
 }
+
 .footer{
 	padding-top:50px;
     position: relative;
@@ -344,3 +353,74 @@ li.dropdown {
             
         }
  
+        div.knoppenfooter{
+            position: relative;
+            float: left;
+            width: 100%;
+            bottom: 50px;
+        }
+        
+        #knoppen{
+            margin: 0 auto;
+            max-width: 950px;
+            color: black;
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            column-gap: 25px;
+        }
+        
+        a.knop1, .knop2, .knop3{
+            width: 300px;
+            height: 100px;
+            background-color: #ffe718;
+            color: black;
+        }
+
+        a.knop2:visited{
+            text-decoration:none;
+            color: black;
+        }
+        
+        h1.deals, h1.diensten, h1.contact{
+            position: relative;
+            bottom: 20px;
+            display: inline-block;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        
+        h2.dealstext, .dienstentext, h2.contacttext{
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        h2.dealstext{
+            position: relative;
+            bottom: 40px;
+            left: 129px;
+        }
+        
+        h2.dienstentext, h2.contacttext{
+            position: relative;
+            left: 110px;
+            bottom: 40px;
+        }
+        
+        .fa-handshake, .fa-toolbox, .fa-paper-plane{
+            padding: 15px;
+            font-size: 75px;
+        }
+        
+        div.knop1:hover, div.knop3:hover{
+            color: #ffffff;
+            background-color: #222931;
+            cursor: pointer;
+        }
+        
+        a:hover{
+            color: #ffffff;
+            background-color: #222931;
+            cursor: pointer;
+            text-decoration:none;
+        }
